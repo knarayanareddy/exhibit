@@ -88,8 +88,8 @@ tests/
 - [x] 1.4 EU AI Act Annex IV & Harmonized Standards catalog in `exhibit/standards.py` and `fixtures/standards/harmonized_standards.json`
 
 ### Phase 2: Trace Evaluation & Injection Immunity Engine
-- [ ] 2.1 Trace evaluation engine in `exhibit/evaluator.py` scoring injection catching, schema validity, and Article 50 transparency
-- [ ] 2.2 Gold trace fixtures in `fixtures/traces/` (`inject_01.jsonl`, `benign_trace.jsonl`, `spans.jsonl`)
+- [x] 2.1 Trace evaluation engine in `exhibit/evaluator.py` scoring injection catching, schema validity, and Article 50 transparency
+- [x] 2.2 Gold trace fixtures in `fixtures/traces/` (`inject_01.jsonl`, `benign_trace.jsonl`, `spans.jsonl`)
 - [ ] 2.3 Comprehensive unit tests in `tests/test_evaluator.py` verifying `ex-inject-01` produces `injection_caught=True`
 - [ ] 2.4 Token and cost accounting in `exhibit/prices.py` computing token usage and evaluation costs in Euros (€)
 
