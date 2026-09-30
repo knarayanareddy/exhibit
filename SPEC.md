@@ -84,8 +84,8 @@ tests/
 ### Phase 1: Core Domain Engine & Span Ingestion
 - [ ] 1.1 Strict domain data models in `exhibit/models.py` (`Span`, `Trace`, `EvaluationScore`, `HumanReviewSignoff`, `ExhibitPack`, `Article12Logging`, `Article14Oversight`, `Article15Security`, `SystemLimitations`)
 - [ ] 1.2 SQLite audit store in `exhibit/storage.py` with signed receipts, timestamps, and `actor=human` sign-off tracking
-- [ ] 1.3 OpenInference & OpenTelemetry trace parser in `exhibit/spans.py` reading directly from `spans.jsonl`
-- [ ] 1.4 EU AI Act Annex IV & Harmonized Standards catalog in `exhibit/standards.py` and `fixtures/standards/harmonized_standards.json`
+- [x] 1.3 OpenInference & OpenTelemetry trace parser in `exhibit/spans.py` reading directly from `spans.jsonl`
+- [x] 1.4 EU AI Act Annex IV & Harmonized Standards catalog in `exhibit/standards.py` and `fixtures/standards/harmonized_standards.json`
 
 ### Phase 2: Trace Evaluation & Injection Immunity Engine
 - [ ] 2.1 Trace evaluation engine in `exhibit/evaluator.py` scoring injection catching, schema validity, and Article 50 transparency

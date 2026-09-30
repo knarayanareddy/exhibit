@@ -1,0 +1,444 @@
+{
+  "catalog_id": "ex-standards-01",
+  "schema_version": "1.0.0",
+  "title": "Local CEN/CENELEC JTC 21 engineering reference cache for EU AI Act Annex IV",
+  "scope": "Deterministic technical-document lookup for Articles 12, 14, and 15. Inclusion does not establish legal conformity, harmonisation, or admissibility.",
+  "constitutional_rule": "Not a conformity assessment. Counsel classifies.",
+  "cache_policy": "local-only",
+  "last_reviewed": "2025-01-15",
+  "standards": [
+    {
+      "standard_id": "iso-iec-42001-2023",
+      "designation": "ISO/IEC 42001:2023",
+      "title": "Information technology — Artificial intelligence — Management system",
+      "issuing_body": "ISO/IEC JTC 1/SC 42",
+      "technical_committee": "ISO/IEC JTC 1/SC 42; CEN/CENELEC JTC 21 cooperation",
+      "edition": "2023",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 12",
+        "Article 14",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.2",
+        "Annex IV.5"
+      ],
+      "characteristics": [
+        "AI management system",
+        "immutable event logging",
+        "human oversight governance",
+        "roles and responsibilities",
+        "risk management",
+        "cybersecurity governance",
+        "technical documentation",
+        "incident management"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "42001-logging",
+          "article": "Article 12",
+          "description": "Document logging ownership, retention controls, event taxonomy, and evidence-retrieval procedures for the deployed system.",
+          "characteristics": [
+            "immutable event logging",
+            "logging ownership",
+            "retention controls",
+            "evidence retrieval"
+          ]
+        },
+        {
+          "evidence_id": "42001-oversight",
+          "article": "Article 14",
+          "description": "Map management-system responsibilities, competence records, operating controls, and human-oversight procedures to the deployed system.",
+          "characteristics": [
+            "human oversight governance",
+            "roles and responsibilities",
+            "competence records",
+            "operating controls"
+          ]
+        },
+        {
+          "evidence_id": "42001-security",
+          "article": "Article 15",
+          "description": "Map security-governance ownership, risk controls, and incident-management processes to the deployed system.",
+          "characteristics": [
+            "cybersecurity governance",
+            "risk management",
+            "incident management"
+          ]
+        }
+      ],
+      "limitations": [
+        "This fixture is an engineering reference and does not claim that the designation was harmonised for the EU AI Act at the review date.",
+        "Management-system evidence supports but does not by itself establish technical conformity.",
+        "Counsel must verify the current Official Journal and Commission designation status before reliance."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 42001:2023 catalogue record",
+        "url": "https://www.iso.org/standard/81230.html",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    },
+    {
+      "standard_id": "iso-iec-23894-2023",
+      "designation": "ISO/IEC 23894:2023",
+      "title": "Information technology — Artificial intelligence — Guidance on risk management",
+      "issuing_body": "ISO/IEC JTC 1/SC 42",
+      "technical_committee": "ISO/IEC JTC 1/SC 42; CEN/CENELEC JTC 21 cooperation",
+      "edition": "2023",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 14",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.2",
+        "Annex IV.5"
+      ],
+      "characteristics": [
+        "risk management",
+        "risk acceptance",
+        "human oversight governance",
+        "cybersecurity governance",
+        "residual risk",
+        "monitoring",
+        "incident response",
+        "technical documentation"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "23894-oversight-risk",
+          "article": "Article 14",
+          "description": "Document how identified risks are controlled through human-oversight measures, including intervention criteria and residual-risk escalation.",
+          "characteristics": [
+            "human oversight governance",
+            "risk acceptance",
+            "intervention criteria",
+            "residual risk"
+          ]
+        },
+        {
+          "evidence_id": "23894-security-risk",
+          "article": "Article 15",
+          "description": "Map risk-treatment decisions, monitoring signals, and incident-response responsibilities to the deployed AI system.",
+          "characteristics": [
+            "risk management",
+            "cybersecurity governance",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "limitations": [
+        "The record is a technical risk-management reference and is not represented as delegated-act harmonised.",
+        "A risk-management process does not by itself prove accuracy, robustness, or cybersecurity.",
+        "The deployment owner must document system-specific risk decisions and acceptance authority."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 23894:2023 catalogue record",
+        "url": "https://www.iso.org/standard/77304.html",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    },
+    {
+      "standard_id": "iso-iec-27001-2023",
+      "designation": "ISO/IEC 27001:2022",
+      "title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "issuing_body": "ISO/IEC JTC 1/SC 27",
+      "technical_committee": "ISO/IEC JTC 1/SC 27; CEN/CENELEC JTC 13 cooperation",
+      "edition": "2022",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 12",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.4",
+        "Annex IV.5"
+      ],
+      "characteristics": [
+        "information security management system",
+        "immutable event logging",
+        "audit logging",
+        "access control",
+        "risk management",
+        "cybersecurity governance",
+        "incident management",
+        "prompt injection defence",
+        "technical documentation"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "27001-logging",
+          "article": "Article 12",
+          "description": "Document protected audit logging, logging responsibility, retention, integrity protection, and review of security-relevant events.",
+          "characteristics": [
+            "immutable event logging",
+            "audit logging",
+            "logging responsibility",
+            "retention",
+            "integrity protection"
+          ]
+        },
+        {
+          "evidence_id": "27001-security",
+          "article": "Article 15",
+          "description": "Map information-security controls, access restrictions, threat handling, and incident-management evidence to the deployed system.",
+          "characteristics": [
+            "access control",
+            "cybersecurity governance",
+            "prompt injection defence",
+            "threat handling",
+            "incident management"
+          ]
+        }
+      ],
+      "limitations": [
+        "This engineering reference is not represented as harmonised under the EU AI Act at the review date.",
+        "Certification or management-system evidence does not itself establish Article 15 conformity of an AI system.",
+        "Prompt-injection controls require deployment-specific validation and must not be inferred solely from the management-system record."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 27001:2022 catalogue record",
+        "url": "https://www.iso.org/standard/27001",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    },
+    {
+      "standard_id": "iso-iec-27002-2022",
+      "designation": "ISO/IEC 27002:2022",
+      "title": "Information security, cybersecurity and privacy protection — Information security controls",
+      "issuing_body": "ISO/IEC JTC 1/SC 27",
+      "technical_committee": "ISO/IEC JTC 1/SC 27; CEN/CENELEC JTC 13 cooperation",
+      "edition": "2022",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 12",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.4",
+        "Annex IV.5"
+      ],
+      "characteristics": [
+        "audit logging",
+        "event logging",
+        "logging monitoring",
+        "access control",
+        "secure development",
+        "threat handling",
+        "incident management",
+        "prompt injection defence",
+        "technical documentation"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "27002-logging",
+          "article": "Article 12",
+          "description": "Select and document event-logging, logging-monitoring, retention, and protection controls appropriate to the deployed system.",
+          "characteristics": [
+            "event logging",
+            "audit logging",
+            "logging monitoring",
+            "retention"
+          ]
+        },
+        {
+          "evidence_id": "27002-security",
+          "article": "Article 15",
+          "description": "Document secure-development, access-control, threat-handling, and incident-management controls with deployment-specific test evidence.",
+          "characteristics": [
+            "secure development",
+            "access control",
+            "threat handling",
+            "prompt injection defence",
+            "incident management"
+          ]
+        }
+      ],
+      "limitations": [
+        "The catalogue entry is a technical control catalogue and is not represented as EU AI Act harmonisation.",
+        "The standard provides guidance rather than deployment-specific proof of robustness or cybersecurity.",
+        "Control selection and validation remain the responsibility of the deployer and relevant assurance personnel."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 27002:2022 catalogue record",
+        "url": "https://www.iso.org/standard/75652.html",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    },
+    {
+      "standard_id": "iso-iec-22989-2022",
+      "designation": "ISO/IEC 22989:2022",
+      "title": "Information technology — Artificial intelligence — Artificial intelligence concepts and terminology",
+      "issuing_body": "ISO/IEC JTC 1/SC 42",
+      "technical_committee": "ISO/IEC JTC 1/SC 42; CEN/CENELEC JTC 21 cooperation",
+      "edition": "2022",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 12",
+        "Article 14",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.2",
+        "Annex IV.3",
+        "Annex IV.4"
+      ],
+      "characteristics": [
+        "AI system description",
+        "intended purpose",
+        "human oversight",
+        "human oversight measures",
+        "system limitations",
+        "robustness",
+        "cybersecurity",
+        "technical documentation",
+        "roles and responsibilities"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "22989-description",
+          "article": "Article 12",
+          "description": "Use consistent terminology when documenting the system, intended purpose, operating context, event concepts, and evidence boundaries.",
+          "characteristics": [
+            "AI system description",
+            "intended purpose",
+            "roles and responsibilities"
+          ]
+        },
+        {
+          "evidence_id": "22989-oversight",
+          "article": "Article 14",
+          "description": "Describe human-oversight concepts, responsibilities, intervention mechanisms, and system limitations without implying legal conformity from terminology alone.",
+          "characteristics": [
+            "human oversight",
+            "human oversight measures",
+            "system limitations",
+            "roles and responsibilities"
+          ]
+        },
+        {
+          "evidence_id": "22989-security",
+          "article": "Article 15",
+          "description": "Use consistent terminology for robustness, cybersecurity, and related system properties in the technical documentation.",
+          "characteristics": [
+            "robustness",
+            "cybersecurity",
+            "system limitations"
+          ]
+        }
+      ],
+      "limitations": [
+        "Terminology standards support consistent documentation but do not provide conformity-assessment methods or deployment evidence.",
+        "This record is not represented as harmonised under the EU AI Act at the review date.",
+        "Definitions must not be used to replace control implementation, testing, or legal classification."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 22989:2022 catalogue record",
+        "url": "https://www.iso.org/standard/77396.html",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    },
+    {
+      "standard_id": "iso-iec-23053-2022",
+      "designation": "ISO/IEC 23053:2022",
+      "title": "Information technology — Artificial intelligence — Framework for AI system engineering",
+      "issuing_body": "ISO/IEC JTC 1/SC 42",
+      "technical_committee": "ISO/IEC JTC 1/SC 42; CEN/CENELEC JTC 21 cooperation",
+      "edition": "2022",
+      "harmonization_status": "technical-reference",
+      "official_journal_listing": false,
+      "articles": [
+        "Article 12",
+        "Article 14",
+        "Article 15"
+      ],
+      "annex_iv_sections": [
+        "Annex IV.1",
+        "Annex IV.2",
+        "Annex IV.3",
+        "Annex IV.5"
+      ],
+      "characteristics": [
+        "system engineering",
+        "AI system description",
+        "intended purpose",
+        "operational design domain",
+        "data governance",
+        "performance monitoring",
+        "human oversight",
+        "robustness",
+        "cybersecurity",
+        "technical documentation"
+      ],
+      "evidence_requirements": [
+        {
+          "evidence_id": "23053-lifecycle-logging",
+          "article": "Article 12",
+          "description": "Document how lifecycle, operational, monitoring, and incident events are generated, correlated, retained, and made available as evidence.",
+          "characteristics": [
+            "system engineering",
+            "performance monitoring",
+            "event logging",
+            "technical documentation"
+          ]
+        },
+        {
+          "evidence_id": "23053-oversight",
+          "article": "Article 14",
+          "description": "Map operational design domain, human-oversight functions, monitoring, intervention, and feedback controls into the system lifecycle.",
+          "characteristics": [
+            "operational design domain",
+            "human oversight",
+            "performance monitoring",
+            "system engineering"
+          ]
+        },
+        {
+          "evidence_id": "23053-security",
+          "article": "Article 15",
+          "description": "Document engineering controls and test evidence for robustness, cybersecurity, data governance, and secure operation.",
+          "characteristics": [
+            "robustness",
+            "cybersecurity",
+            "data governance",
+            "system engineering"
+          ]
+        }
+      ],
+      "limitations": [
+        "The framework supports system-engineering documentation but does not itself establish legal conformity.",
+        "This catalogue record is not represented as a delegated act harmonising the cited designation for the EU AI Act.",
+        "Deployment-specific architecture, validation results, and acceptance decisions must be retained as separate evidence."
+      ],
+      "source": {
+        "publisher": "International Organization for Standardization",
+        "title": "ISO/IEC 23053:2022 catalogue record",
+        "url": "https://www.iso.org/standard/77338.html",
+        "retrieved_on": "2025-01-15",
+        "verification_required": true
+      }
+    }
+  ]
+}
