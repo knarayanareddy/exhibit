@@ -82,8 +82,8 @@ tests/
 ## 5. Step-by-Step Implementation Checklist
 
 ### Phase 1: Core Domain Engine & Span Ingestion
-- [ ] 1.1 Strict domain data models in `exhibit/models.py` (`Span`, `Trace`, `EvaluationScore`, `HumanReviewSignoff`, `ExhibitPack`, `Article12Logging`, `Article14Oversight`, `Article15Security`, `SystemLimitations`)
-- [ ] 1.2 SQLite audit store in `exhibit/storage.py` with signed receipts, timestamps, and `actor=human` sign-off tracking
+- [x] 1.1 Strict domain data models in `exhibit/models.py` (`Span`, `Trace`, `EvaluationScore`, `HumanReviewSignoff`, `ExhibitPack`, `Article12Logging`, `Article14Oversight`, `Article15Security`, `SystemLimitations`)
+- [x] 1.2 SQLite audit store in `exhibit/storage.py` with signed receipts, timestamps, and `actor=human` sign-off tracking
 - [x] 1.3 OpenInference & OpenTelemetry trace parser in `exhibit/spans.py` reading directly from `spans.jsonl`
 - [x] 1.4 EU AI Act Annex IV & Harmonized Standards catalog in `exhibit/standards.py` and `fixtures/standards/harmonized_standards.json`
 
