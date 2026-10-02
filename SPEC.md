@@ -94,8 +94,8 @@ tests/
 - [ ] 2.4 Token and cost accounting in `exhibit/prices.py` computing token usage and evaluation costs in Euros (€)
 
 ### Phase 3: Governance Policy & Dossier Pack Compiler
-- [ ] 3.1 Pure Python governance policy in `exhibit/policy.py` enforcing: disallow automated "Compliant" stamp, require signed human reviewer record
-- [ ] 3.2 Exhibit pack compiler in `exhibit/pack_compiler.py` compiling `exhibit.json` containing statutory Articles 12, 14, 15 and explicit limitations
+- [x] 3.1 Pure Python governance policy in `exhibit/policy.py` enforcing: disallow automated "Compliant" stamp, require signed human reviewer record
+- [x] 3.2 Exhibit pack compiler in `exhibit/pack_compiler.py` compiling `exhibit.json` containing statutory Articles 12, 14, 15 and explicit limitations
 - [ ] 3.3 Unit tests in `tests/test_policy.py` and `tests/test_pack_compiler.py` validating the dossier schema and human oversight gate
 
 ### Phase 4: API, Compliance Dashboard & Production Hardening

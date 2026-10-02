@@ -1,0 +1,18 @@
+--- a/exhibit/storage.py
++++ b/exhibit/storage.py
+@@ -22,7 +22,14 @@
+ from pathlib import Path
+ from typing import Any, Callable
+ 
+-from pydantic import AliasChoices, BaseModel, ConfigDict, Field, field_validator
++from pydantic import (
++    AliasChoices,
++    BaseModel,
++    ConfigDict,
++    Field,
++    field_validator,
++    model_validator,
++)
+ 
+ from .models import (
+     CONSTITUTIONAL_RULE,
