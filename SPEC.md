@@ -99,8 +99,8 @@ tests/
 - [ ] 3.3 Unit tests in `tests/test_policy.py` and `tests/test_pack_compiler.py` validating the dossier schema and human oversight gate
 
 ### Phase 4: API, Compliance Dashboard & Production Hardening
-- [ ] 4.1 FastAPI application in `exhibit/api.py` with `/api/v1/ingest`, `/api/v1/traces`, `/api/v1/review`, `/exhibit/{job_id}`, and `/health`
-- [ ] 4.2 Self-contained dark-slate compliance dashboard in `web/templates/dashboard.html` with readiness cards, reviewer verification drawer, and 1-click download
+- [x] 4.1 FastAPI application in `exhibit/api.py` with `/api/v1/ingest`, `/api/v1/traces`, `/api/v1/review`, `/exhibit/{job_id}`, and `/health`
+- [x] 4.2 Self-contained dark-slate compliance dashboard in `web/templates/dashboard.html` with readiness cards, reviewer verification drawer, and 1-click download
 - [ ] 4.3 Command-line interface and demo runner in `exhibit/main.py` (`python main.py demo` and `python main.py serve`)
 - [ ] 4.4 API integration tests in `tests/test_api.py` verifying full trace ingest -> review -> `exhibit.json` export cycle
 - [ ] 4.5 GitHub Actions CI workflow in `.github/workflows/ci.yml` running test suite on pull requests
